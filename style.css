@@ -1,0 +1,66 @@
+body {
+    margin:0;
+    position: relative;
+}
+
+header {
+    background-color: rgb(253, 253, 253);
+    background-size: 200% 200%;
+    text-decoration: none;
+    padding: 1%;
+    border-top: 0;
+    border-style: solid;
+    border-color: rgb(130, 49, 141);
+    box-shadow: 2px 2px 5px;
+    display: inline-block;
+    width: 98%;
+}
+
+body > header > a > img {
+    width: 12%;
+}
+
+header > div > nav > ul{
+    padding: 0;
+    width: 630px;  
+    margin: 0;
+}
+
+header > div > nav > ul > li {
+    display: inline;
+    padding: 7%;
+    bottom: 13%;
+}
+
+header > div > nav > ul > li > a {
+    color: rgb(28, 16, 85);
+    text-decoration: none;
+    margin: 2%;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+header > div {
+    text-align: -webkit-center; 
+}
+
+.orçamento {
+    text-align: right;
+    bottom: 30%;
+}
+
+.orcamento > a{
+    text-decoration: none;
+}
+
+.orçamento > a > img {
+    width: 8%;
+}
+
+.mesa > section > img {
+    width: 100%;
+}
+
+
