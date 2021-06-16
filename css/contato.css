@@ -1,0 +1,76 @@
+main{
+    padding:50px;
+    background-image: url("../images/background-contato.jpg");
+    background-size: 100% 100%;
+}
+
+form{
+    background-color: #d1d1d1;
+    border-radius: 3%;
+    width:400px;
+    padding: 15px;
+    margin: 0 auto;
+    font-weight: bold;
+    margin-top: 14vw;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    box-shadow: 2px 2px 3px black;
+
+}
+
+fieldset{
+    border:0;
+}
+
+label{
+    display: block;
+    color: #011640;
+}
+
+fieldset > input{
+    width: 93%;
+    height: 25px;
+}
+
+.input-form{
+    width: 93%;
+}
+
+.button{
+    background: #afc7fd;
+    display: block;
+    margin: 0 auto;
+    color: #011640;
+    border-radius: 3%;
+    border: 1px 1px solid;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.button:hover {
+    opacity: 0.7;
+}
+
+@media only screen and (max-width: 600px){
+    main{
+        padding:50px;
+        background-image: url("background-contato_resp.jpg");
+        background-size: 100% 100%;
+    }
+
+    form {
+        background-color: #d1d1d1;
+        border-radius: 3%;
+        width: 70vw;
+        padding: 16px;
+        margin: 0 auto;
+        font-weight: bold;
+        margin-top: 23vw;
+        font-family: 'Ubuntu', sans-serif;
+        color: white;
+        box-shadow: 2px 2px 3px black;
+        margin-left: -3vw;
+    }
+}
