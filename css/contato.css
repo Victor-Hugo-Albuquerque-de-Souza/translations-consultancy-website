@@ -56,7 +56,7 @@ fieldset > input{
 @media only screen and (max-width: 600px){
     main{
         padding:50px;
-        background-image: url("background-contato_resp.jpg");
+        background-image: url("../images/background-contato_resp.jpg");
         background-size: 100% 100%;
     }
 
